@@ -17,7 +17,7 @@
 
 Writes a `DynamicFrame` using the specified connection and format\.
 + `frame` – The `DynamicFrame` to write\.
-+ `connection_type` – The connection type\. Valid values include `s3`, `mysql`, `postgresql`, `redshift`, `sqlserver`, and `oracle`\.
++ `connection_type` – The connection type\. Valid values include `s3`, `mysql`, `postgresql`, `redshift`, `sqlserver`, `jdbc`, and `oracle`\.
 + `connection_options` – Connection options, such as path and database table \(optional\)\. For a `connection_type` of `s3`, an Amazon S3 path is defined\.
 
   ```
